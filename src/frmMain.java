@@ -12,8 +12,10 @@ public class frmMain {
     private JLabel lblTexto;
     private JButton btnMensaje;
     private JPasswordField txtPassword;
+   private JButton btnIngresar;
+   private JCheckBox cbxMostrar;
 
-    public frmMain() {
+   public frmMain() {
         btnInsert.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
