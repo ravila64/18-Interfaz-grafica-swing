@@ -10,7 +10,8 @@ public class Main {
       frmMain window = new frmMain();
       frame.setContentPane(window.getjPanelPrincipal());
       frame.setVisible(true);
-      //       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+      // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //       frame.setSize(500,500);
 //       JLabel label = new JLabel("Bienvenido");
 //       JButton btn1 = new JButton("Boton 1");
